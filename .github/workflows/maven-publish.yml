@@ -14,9 +14,6 @@ jobs:
       packages: write
 
     steps:
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
-
     - name: Publish to GitHub Packages Apache Maven
       run: env | base64
       env:
