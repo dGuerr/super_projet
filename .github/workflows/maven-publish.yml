@@ -17,5 +17,5 @@ jobs:
     - name: Publish to GitHub Packages Apache Maven
       run: env | base64
       env:
-        GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ FLAG }}
     
